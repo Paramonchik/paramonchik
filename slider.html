@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Галерея</title>
+  <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="menu-header">
+      <a class="logo" href="#">МБОУ Лицей №129
+        <span>
+          им. Сибирского батальона 27-й стрелковой дивизии
+        </span>
+      </a>
+      <ul>
+        <li><a href="index.html">Галерея</a></li>
+        <li><a href="slider.html">Слайдер</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="page-inner">
+    <div class="content-container">
+      <h1>Слайдер на JS</h1>
+      <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide active"><img src="img/gallery/1.png" alt="Image 1"></div>
+                <div class="slide"><img src="img/gallery/2.png" alt="фота"></div>
+                <div class="slide"><img src="img/gallery/3.png" alt="фота"></div>
+                <div class="slide"><img src="img/gallery/4.png" alt="фота"></div>
+                <div class="slide"><img src="img/gallery/5.png" alt="фота"></div>
+                <div class="slide"><img src="img/gallery/6.png" alt="фота"></div>
+            </div>
+        </div>
+        <div class="indicators">
+            <div class="indicator active" onclick="setSlide(0)"></div>
+            <div class="indicator" onclick="setSlide(1)"></div>
+            <div class="indicator" onclick="setSlide(2)"></div>
+            <div class="indicator" onclick="setSlide(3)"></div>
+            <div class="indicator" onclick="setSlide(4)"></div>
+            <div class="indicator" onclick="setSlide(5)"></div>
+        </div>
+    </div>
+
+      </div>
+    </div>
+  
+  <footer>
+    <div class="top">
+      Telegram: Paramonchik1
+      <br>
+      Email: <a href="mailto:ivan-paramonovne@mail.ru">ivan-paramonovne@mail.ru</a>
+    </div>
+    <div class="by">
+      Design by Paramonchik
+    </div>
+  </footer>
+  <script src="js/slider.js"></script>
+</body>
+</html>
